@@ -322,6 +322,46 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Test_Client_Pick_List__c</fullName>
+        <description>Test Pick List for Test Client record type</description>
+        <externalId>false</externalId>
+        <label>Test Client Pick List</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Cat</fullName>
+                    <default>false</default>
+                    <label>Cat</label>
+                </value>
+                <value>
+                    <fullName>Dog</fullName>
+                    <default>false</default>
+                    <label>Dog</label>
+                </value>
+                <value>
+                    <fullName>Fox</fullName>
+                    <default>false</default>
+                    <label>Fox</label>
+                </value>
+                <value>
+                    <fullName>Mouse</fullName>
+                    <default>false</default>
+                    <label>Mouse</label>
+                </value>
+                <value>
+                    <fullName>Owl</fullName>
+                    <default>false</default>
+                    <label>Owl</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>TickerSymbol</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -366,6 +406,23 @@
         </filters>
         <label>New This Week</label>
     </listViews>
+    <recordTypes>
+        <fullName>Client_Test</fullName>
+        <active>true</active>
+        <description>Testing new record types</description>
+        <label>Client Test</label>
+        <picklistValues>
+            <picklist>Test_Client_Pick_List__c</picklist>
+            <values>
+                <fullName>Mouse</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Owl</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>
