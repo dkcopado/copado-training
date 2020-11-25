@@ -5994,6 +5994,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Test_Object__c.Test_Object_Field__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>User.TIMBASURVEYS__SurveyReminder__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -9891,6 +9896,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Task-Task Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Test_Object__c-Test Object Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Test__c-Test Layout</layout>
