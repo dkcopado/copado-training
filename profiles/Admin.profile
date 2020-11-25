@@ -5994,6 +5994,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Test_Object__c.Test_Object_Field__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>User.TIMBASURVEYS__SurveyReminder__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -9893,6 +9898,9 @@
         <layout>Task-Task Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Test_Object__c-Test Object Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Test__c-Test Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -10577,6 +10585,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>TIMBASURVEYS__TimbaSurveyData__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Test_Object__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
