@@ -5993,6 +5993,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Test_Object__c.Test_Object_Field__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>User.TIMBASURVEYS__SurveyReminder__c</field>
         <readable>false</readable>
@@ -9735,6 +9740,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>ContactPointPhone-Contact Point Phone Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Test_Object__c-Test Object Layout</layout>
     </layoutAssignments>
     <pageAccesses>
         <apexPage>SelectInspectionPage</apexPage>
