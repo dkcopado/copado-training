@@ -362,17 +362,6 @@
         </valueSet>
     </fields>
     <fields>
-        <fullName>Test_Label__c</fullName>
-        <description>Test Label</description>
-        <externalId>false</externalId>
-        <label>Test Label</label>
-        <length>40</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>TickerSymbol</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
