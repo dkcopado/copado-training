@@ -33,6 +33,10 @@
                 <behavior>Edit</behavior>
                 <field>Test_Client_Pick_List__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Gate_Test__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
