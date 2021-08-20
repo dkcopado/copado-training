@@ -220,10 +220,6 @@
                 <valueName>GoW</valueName>
             </valueSettings>
             <valueSettings>
-                <controllingFieldValue>COD</controllingFieldValue>
-                <valueName>Star Wars</valueName>
-            </valueSettings>
-            <valueSettings>
                 <controllingFieldValue>SplitGate</controllingFieldValue>
                 <valueName>Returnal</valueName>
             </valueSettings>
