@@ -9732,6 +9732,16 @@
         <field>copado__User_Story__c.copado__userStory_reason__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>prTest__c.highmarkTest__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>prTest__c.markTest__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
@@ -9924,6 +9934,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>UserProvisioningRequest-User Provisioning Request Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>prTest__c-prTest Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -11417,6 +11430,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>copado__User_Story__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>prTest__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <pageAccesses>
@@ -13179,6 +13201,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>ManageCssUsers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ManageCustomPermissions</name>
     </userPermissions>
     <userPermissions>
@@ -13240,6 +13266,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManagePackageLicenses</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManagePartners</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -13392,6 +13422,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewEventLogFiles</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewGlobalHeader</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
