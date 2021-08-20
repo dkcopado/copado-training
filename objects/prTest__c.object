@@ -190,6 +190,16 @@
                     <default>false</default>
                     <label>Returnal</label>
                 </value>
+                <value>
+                    <fullName>Star Wars</fullName>
+                    <default>false</default>
+                    <label>Star Wars</label>
+                </value>
+                <value>
+                    <fullName>Avengers</fullName>
+                    <default>false</default>
+                    <label>Avengers</label>
+                </value>
             </valueSetDefinition>
             <valueSettings>
                 <controllingFieldValue>If</controllingFieldValue>
@@ -206,11 +216,20 @@
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>COD</controllingFieldValue>
+                <controllingFieldValue>SplitGate</controllingFieldValue>
                 <valueName>GoW</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>COD</controllingFieldValue>
+                <valueName>Star Wars</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>SplitGate</controllingFieldValue>
                 <valueName>Returnal</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>SplitGate</controllingFieldValue>
+                <valueName>Avengers</valueName>
             </valueSettings>
         </valueSet>
     </fields>
