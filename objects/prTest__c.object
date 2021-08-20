@@ -180,6 +180,16 @@
                     <default>false</default>
                     <label>Maybe</label>
                 </value>
+                <value>
+                    <fullName>GoW</fullName>
+                    <default>false</default>
+                    <label>GoW</label>
+                </value>
+                <value>
+                    <fullName>Returnal</fullName>
+                    <default>false</default>
+                    <label>Returnal</label>
+                </value>
             </valueSetDefinition>
             <valueSettings>
                 <controllingFieldValue>If</controllingFieldValue>
@@ -187,11 +197,20 @@
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Else</controllingFieldValue>
+                <controllingFieldValue>SplitGate</controllingFieldValue>
                 <valueName>No</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Then</controllingFieldValue>
                 <valueName>Maybe</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>COD</controllingFieldValue>
+                <valueName>GoW</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>SplitGate</controllingFieldValue>
+                <valueName>Returnal</valueName>
             </valueSettings>
         </valueSet>
     </fields>
@@ -220,6 +239,16 @@
                     <fullName>Then</fullName>
                     <default>false</default>
                     <label>Then</label>
+                </value>
+                <value>
+                    <fullName>COD</fullName>
+                    <default>false</default>
+                    <label>COD</label>
+                </value>
+                <value>
+                    <fullName>SplitGate</fullName>
+                    <default>false</default>
+                    <label>SplitGate</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
