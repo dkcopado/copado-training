@@ -9734,11 +9734,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>prTest__c.highmarkTest__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>prTest__c.markTest__c</field>
         <readable>false</readable>
     </fieldPermissions>
