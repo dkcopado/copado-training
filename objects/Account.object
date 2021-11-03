@@ -417,6 +417,17 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>UpTest__c</fullName>
+        <description>csv test field</description>
+        <externalId>false</externalId>
+        <label>UpTest</label>
+        <length>64</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Website</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
